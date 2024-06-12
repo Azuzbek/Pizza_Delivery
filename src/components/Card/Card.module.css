@@ -50,6 +50,7 @@
 }
 .rating {
 	position: absolute;
+	color: var(--text-color);
 	bottom: -13px;
 	left: 12px;
 	padding: 3px 8px;
