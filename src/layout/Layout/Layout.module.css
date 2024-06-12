@@ -2,6 +2,10 @@
 	display: flex;
 	min-height: 100vh;
 }
+.content {
+	width: 100%;
+	padding: 40px 60px;
+}
 
 .sidebar {
 	padding: 30px;
@@ -44,6 +48,7 @@
 	text-decoration: none;
 	color: var(--text-color);
 	gap: 14px;
+	transition: all 0.2s ease;
 }
 .Link:hover {
 	color: var(--primary-color);

@@ -1,0 +1,80 @@
+.link_card {
+	text-decoration: none;
+}
+.header {
+	position: relative;
+	min-height: 165px;
+	border-radius: 19px;
+	background-position: center;
+	background-size: cover;
+}
+.card {
+	background: white;
+	border-radius: 19px;
+	box-shadow: 18px 18px 36px 0 rgba(211, 209, 216, 0.25);
+	width: 320px;
+}
+.price {
+	color: var(--text-color);
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	padding: 3px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	font-style: normal;
+	background-color: white;
+	border-radius: 20px;
+}
+.currency {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	font-style: normal;
+	color: var(--primary-color);
+}
+.add {
+	background-color: var(--primary-color);
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.add:hover {
+	background-color: var(--primary-hover-color);
+}
+.rating {
+	position: absolute;
+	bottom: -13px;
+	left: 12px;
+	padding: 3px 8px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: normal;
+	font-style: normal;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 6px 6px 24px 0 rgba(254, 114, 76, 0.2);
+}
+.footer {
+	padding: 13px;
+}
+.title {
+	color: var(--text-color);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	font-style: normal;
+}
+.desc {
+	color: var(--text-descr-color);
+	font-size: 15px;
+	font-weight: 400;
+	line-height: normal;
+	font-style: normal;
+}
